@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.site-header {
+    background-color: rgb(0, 183, 0);
+    width: 100vw;
+    height: 50px;
+}
+
+.site-header h1 {
+    font-family: Arial, sans-serif;
+    margin: 8px;
+}
+
+@counter-style music{
+    system: cyclic;
+    symbols: "♪";
+    suffix: " ";
+}
+
+ul {
+    list-style-type: music;
+}
